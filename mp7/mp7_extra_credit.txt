@@ -1,0 +1,23 @@
+Monad Autograder
+Testing mp7.1 at 2012-12-05 10:57:04
+
+"All that is gold does not glitter, / Not all those who wander are lost;" ~ Bilbo Baggins
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+addElements1 . . . . [20 pts] - passed
+addElements2 . . . . [20 pts] - passed
+testFindAndSetUnion1 [20 pts] - passed
+testFindAndSetUnion2 [20 pts] - passed
+testFindAndSetUnion3 [20 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

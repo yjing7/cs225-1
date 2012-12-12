@@ -1,0 +1,305 @@
+Monad Autograder
+Testing mp3 at 2012-10-06 02:54:25
+
+"I hear and I forget; I see and I remember; I do and I understand." ~ Confucius
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testInsertFront  . . . . . . . . . . [2 pts]  - passed
+testInsertBack . . . . . . . . . . . [2 pts]  - passed
+testDestructor10 (valgrind)  . . . . [3 pts]  - passed
+testDestructor37 (valgrind)  . . . . [3 pts]  - passed
+testReverse20_size . . . . . . . . . [1 pts]  - passed
+testReverse20_forward  . . . . . . . [1 pts]  - passed
+testReverse20_backward . . . . . . . [1 pts]  - passed
+testReverse37_size . . . . . . . . . [1 pts]  - passed
+testReverse37_forward  . . . . . . . [1 pts]  - passed
+testReverse37_backward . . . . . . . [1 pts]  - passed
+testReverseEmpty (valgrind)  . . . . [1 pts]  - FAILED: ==21628==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+
+testReverse20_memory (valgrind)  . . [1 pts]  - passed
+testReverseNth20_2_size  . . . . . . [1 pts]  - passed
+testReverseNth20_2_forward . . . . . [1 pts]  - passed
+testReverseNth20_2_backward  . . . . [1 pts]  - FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+testReverseNth37_4_size  . . . . . . [1 pts]  - passed
+testReverseNth37_4_forward . . . . . [1 pts]  - passed
+testReverseNth37_4_backward  . . . . [1 pts]  - passed
+testReverseNth37_37  . . . . . . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testReverseNth37_4_memory (valgrind) [1 pts]  - passed
+testReverseNthEmpty (valgrind) . . . [1 pts]  - FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+testWaterfall4_size  . . . . . . . . [1 pts]  - passed
+testWaterfall4_forward . . . . . . . [1 pts]  - passed
+testWaterfall4_backward  . . . . . . [2 pts]  - passed
+testWaterfall7_size  . . . . . . . . [1 pts]  - passed
+testWaterfall7_forward . . . . . . . [1 pts]  - passed
+testWaterfall7_backward  . . . . . . [2 pts]  - passed
+testWaterfall12_size . . . . . . . . [1 pts]  - passed
+testWaterfall12_forward  . . . . . . [1 pts]  - passed
+testWaterfall12_backward . . . . . . [2 pts]  - passed
+testWaterfall7_memory (valgrind) . . [3 pts]  - passed
+testWaterfall7_empty (valgrind)  . . [3 pts]  - passed
+testSplit5_this_size . . . . . . . . [1 pts]  - passed
+testSplit5_this_forward  . . . . . . [1 pts]  - passed
+testSplit5_this_backward . . . . . . [1 pts]  - passed
+testSplit5_split_size  . . . . . . . [1 pts]  - passed
+testSplit5_split_forward . . . . . . [1 pts]  - passed
+testSplit5_split_backward  . . . . . [1 pts]  - passed
+testSplit5_mem (valgrind)  . . . . . [3 pts]  - passed
+testMerge_size . . . . . . . . . . . [1 pts]  - passed
+testMerge_forward  . . . . . . . . . [1 pts]  - passed
+testMerge_backward . . . . . . . . . [1 pts]  - passed
+testMerge_mem (valgrind) . . . . . . [3 pts]  - passed
+testSort16p_s  . . . . . . . . . . . [1 pts]  - passed
+testSort16p_f  . . . . . . . . . . . [2 pts]  - passed
+testSort16p_b  . . . . . . . . . . . [2 pts]  - FAILED: Timed out (1000ms)
+testSort20p_s  . . . . . . . . . . . [1 pts]  - passed
+testSort20p_f  . . . . . . . . . . . [2 pts]  - passed
+testSort20p_b  . . . . . . . . . . . [2 pts]  - FAILED: Timed out (1000ms)
+testSort27p_s  . . . . . . . . . . . [1 pts]  - passed
+testSort27p_f  . . . . . . . . . . . [2 pts]  - passed
+testSort27p_b  . . . . . . . . . . . [2 pts]  - passed
+testSortEmpty  . . . . . . . . . . . [5 pts]  - passed
+testSort259p_s . . . . . . . . . . . [1 pts]  - passed
+testSort259p_f . . . . . . . . . . . [2 pts]  - passed
+testSort259p_b . . . . . . . . . . . [2 pts]  - FAILED: Timed out (1000ms)
+testSortMemLeak (valgrind) . . . . . [5 pts]  - FAILED: Timed out (10000ms)
+testSortNlogN  . . . . . . . . . . . [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 85
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+testReverseEmpty (run under valgrind) [1 points]
+Result: FAILED: ==21628==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testReverseEmpty [worth 1 points, output below]
+==21629== Invalid read of size 4
+==21629==    at 0x41D31B: List<int>::reverse() (list.cpp:103)
+==21629==    by 0x419F58: testReverse(int, check_t, bool) (unit_tests.cpp:242)
+==21629==    by 0x41A310: proxy_test::testReverseEmpty(util::sizedpipestream<512ul>&) (unit_tests.cpp:281)
+==21629==    by 0x407B41: monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (monad_shared.h:72)
+==21629==    by 0x40697B: proxy::test_execution::child_test() (proxy.cpp:549)
+==21629==    by 0x40639A: proxy::test_execution::child() (proxy.cpp:434)
+==21629==    by 0x40959C: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:508)
+==21629==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21629==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21629==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21629==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+==21629==    by 0x4053A5: proxy::RunTests::execute() (proxy.cpp:214)
+==21629==  Address 0x10 is not stack'd, malloc'd or (recently) free'd
+==21629== 
+==21629== 
+==21629== Process terminating with default action of signal 11 (SIGSEGV)
+==21629==  Access not within mapped region at address 0x10
+==21629==    at 0x41D31B: List<int>::reverse() (list.cpp:103)
+==21629==    by 0x419F58: testReverse(int, check_t, bool) (unit_tests.cpp:242)
+==21629==    by 0x41A310: proxy_test::testReverseEmpty(util::sizedpipestream<512ul>&) (unit_tests.cpp:281)
+==21629==    by 0x407B41: monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (monad_shared.h:72)
+==21629==    by 0x40697B: proxy::test_execution::child_test() (proxy.cpp:549)
+==21629==    by 0x40639A: proxy::test_execution::child() (proxy.cpp:434)
+==21629==    by 0x40959C: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:508)
+==21629==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21629==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21629==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21629==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+==21629==    by 0x4053A5: proxy::RunTests::execute() (proxy.cpp:214)
+==21629==  If you believe this happened as a result of a stack
+==21629==  overflow in your program's main thread (unlikely but
+==21629==  possible), you can try to increase the size of the
+==21629==  main thread stack using the --main-stacksize= flag.
+==21629==  The main thread stack size used in this run was 10485760.
+==21628== 31 bytes in 1 blocks are possibly lost in loss record 2 of 11
+==21628==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21628==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21628==    by 0x40780D: __static_initialization_and_destruction_0(int, int) (proxy.cpp:31)
+==21628==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21628==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628== 
+==21628== 33 bytes in 1 blocks are possibly lost in loss record 3 of 11
+==21628==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21628==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21628==    by 0x407821: __static_initialization_and_destruction_0(int, int) (proxy.cpp:37)
+==21628==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21628==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628== 
+==21628== 37 bytes in 1 blocks are possibly lost in loss record 4 of 11
+==21628==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21628==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21628==    by 0x407835: __static_initialization_and_destruction_0(int, int) (proxy.cpp:43)
+==21628==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21628==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21628== 
+==21628== 53 bytes in 1 blocks are possibly lost in loss record 9 of 11
+==21628==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21628==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9DD89: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x3A82C9DF4B: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x40944F: util::sizedpipestream<512ul>::operator>>(std::string&) (pipestream.cpp:198)
+==21628==    by 0x406441: proxy::test_execution::parent() (proxy.cpp:448)
+==21628==    by 0x4095B5: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:513)
+==21628==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21628==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21628==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21628==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+==21628==    by 0x4053A5: proxy::RunTests::execute() (proxy.cpp:214)
+==21628== 
+==21628== 132 bytes in 1 blocks are possibly lost in loss record 10 of 11
+==21628==    at 0x4A05FDE: malloc (vg_replace_malloc.c:236)
+==21628==    by 0x3A82CBB746: __cxa_allocate_exception (in /usr/lib64/libstdc++.so.6.0.13)
+==21628==    by 0x40963F: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:522)
+==21628==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21628==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21628==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21628==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+=
+
+----------------------------------------------------------------
+testReverseNth20_2_backward [1 points]
+Result: FAILED: unit_tests.cpp:117: List does not match solution with backward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+< 1 0 3 2 5 4 7 6 9 8 11 10 13 12 15 14 17 16 19 18 >
+
+----------------------------------------------------------------
+testReverseNth37_37 [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+0
+36
+< 36 >
+
+----------------------------------------------------------------
+testReverseNthEmpty (run under valgrind) [1 points]
+Result: FAILED: unit_tests.cpp:115: List does not match solution with forward traversal
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testReverseNthEmpty [worth 1 points, output below]
+==21659== 216 (24 direct, 192 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
+==21659==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21659==    by 0x41D26C: List<int>::insertBack(int const&) (list.cpp:80)
+==21659==    by 0x41A110: testReverseNth(int, int, check_t, bool) (unit_tests.cpp:262)
+==21659==    by 0x41A491: proxy_test::testReverseNthEmpty(util::sizedpipestream<512ul>&) (unit_tests.cpp:295)
+==21659==    by 0x407B41: monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (monad_shared.h:72)
+==21659==    by 0x40697B: proxy::test_execution::child_test() (proxy.cpp:549)
+==21659==    by 0x40639A: proxy::test_execution::child() (proxy.cpp:434)
+==21659==    by 0x40959C: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:508)
+==21659==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21659==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21659==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21659==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+==21659== 
+< 0 >
+Result: FAILED:
+unit_tests.cpp:115: List does not match solution with forward traversal
+
+----------------------------------------------------------------
+testSort16p_b [2 points]
+Result: FAILED: Timed out (1000ms)
+Took 1000ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSort20p_b [2 points]
+Result: FAILED: Timed out (1000ms)
+Took 1000ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSort259p_b [2 points]
+Result: FAILED: Timed out (1000ms)
+Took 1000ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+testSortMemLeak (run under valgrind) [5 points]
+Result: FAILED: Timed out (10000ms)
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running testSortMemLeak [worth 5 points, output below]
+==21716== 31 bytes in 1 blocks are possibly lost in loss record 2 of 10
+==21716==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21716==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21716==    by 0x40780D: __static_initialization_and_destruction_0(int, int) (proxy.cpp:31)
+==21716==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21716==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716== 
+==21716== 33 bytes in 1 blocks are possibly lost in loss record 3 of 10
+==21716==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21716==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21716==    by 0x407821: __static_initialization_and_destruction_0(int, int) (proxy.cpp:37)
+==21716==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21716==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716== 
+==21716== 37 bytes in 1 blocks are possibly lost in loss record 4 of 10
+==21716==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==21716==    by 0x3A82C9C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x3A82C9CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x4050D5: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (proxy.cpp:165)
+==21716==    by 0x407835: __static_initialization_and_destruction_0(int, int) (proxy.cpp:43)
+==21716==    by 0x40784A: global constructors keyed to ___monad_output_check_equals_adder (proxy.cpp:757)
+==21716==    by 0x425CF5: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716==    by 0x403802: ??? (in /dev/shm/geigle1/grading/monad/mp3_grade/proxy)
+==21716== 
+==21716== 132 bytes in 1 blocks are possibly lost in loss record 9 of 10
+==21716==    at 0x4A05FDE: malloc (vg_replace_malloc.c:236)
+==21716==    by 0x3A82CBB746: __cxa_allocate_exception (in /usr/lib64/libstdc++.so.6.0.13)
+==21716==    by 0x40963F: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (proxy.cpp:522)
+==21716==    by 0x4067FF: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (proxy.cpp:489)
+==21716==    by 0x405684: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (proxy.cpp:250)
+==21716==    by 0x40558C: proxy::RunTests::run_single_test(char const*) (proxy.cpp:238)
+==21716==    by 0x4053F4: proxy::RunTests::execute_by_mode() (proxy.cpp:223)
+==21716==    by 0x4053A5: proxy::RunTests::execute() (proxy.cpp:214)
+==21716==    by 0x404B40: main (proxy.cpp:104)
+==21716== 
+Result: FAILED:
+Timed out (10000ms)
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 85
+

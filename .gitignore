@@ -1,0 +1,7 @@
+#git ignore file
+
+# ignores all .png 
+*.png
+
+# ignore svn folders
+.svn/

@@ -1,0 +1,130 @@
+Monad Autograder
+Testing mp5 at 2012-11-03 03:27:39
+
+"If you don't hand in the next homework, you might miss some points" ~ Prof. Jiawei Han
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_default_ctor  . . . . . . [1 pts] - passed
+test_ctor_1  . . . . . . . . . [1 pts] - passed
+test_ctor_2  . . . . . . . . . [2 pts] - passed
+test_buildTree_1 . . . . . . . [2 pts] - passed
+test_buildTree_2 . . . . . . . [1 pts] - passed
+test_buildTree_3 . . . . . . . [2 pts] - passed
+test_cctor_1 . . . . . . . . . [1 pts] - passed
+test_cctor_2 . . . . . . . . . [1 pts] - passed
+test_cctor_3 . . . . . . . . . [1 pts] - passed
+test_cctor_4 . . . . . . . . . [1 pts] - passed
+test_assign_op_1 . . . . . . . [1 pts] - passed
+test_assign_op_2 . . . . . . . [1 pts] - passed
+test_assign_op_3 . . . . . . . [1 pts] - passed
+test_assign_op_4 . . . . . . . [1 pts] - passed
+test_getPixel_1  . . . . . . . [1 pts] - passed
+test_getPixel_2  . . . . . . . [2 pts] - passed
+test_getPixel_3  . . . . . . . [2 pts] - passed
+test_getPixel_4  . . . . . . . [2 pts] - passed
+test_decompress_unpruned_1 . . [1 pts] - passed
+test_decompress_unpruned_2 . . [1 pts] - passed
+test_decompress_unpruned_3 . . [1 pts] - passed
+test_decompress_unpruned_4 . . [1 pts] - passed
+time_getPixel_logn . . . . . . [4 pts] - passed
+time_decompress_n (valgrind) . [4 pts] - FAILED: unit_tests.cpp:296: Runtime was larger than O(n)
+valgrind_big3 (valgrind) . . . [4 pts] - passed
+test_clockwiseRotate_1 . . . . [1 pts] - FAILED: Segmentation fault
+test_clockwiseRotate_2 . . . . [1 pts] - passed
+test_clockwiseRotate_3 . . . . [2 pts] - passed
+test_clockwiseRotate_4 . . . . [2 pts] - passed
+test_prune_1 . . . . . . . . . [2 pts] - FAILED: Segmentation fault
+test_prune_2 . . . . . . . . . [3 pts] - passed
+test_prune_3 . . . . . . . . . [2 pts] - passed
+test_prune_4 . . . . . . . . . [5 pts] - passed
+test_prune_copy  . . . . . . . [2 pts] - passed
+test_prune_rotate  . . . . . . [2 pts] - passed
+test_prune_getPixel  . . . . . [3 pts] - passed
+test_pruneSize_1 . . . . . . . [2 pts] - FAILED: Segmentation fault
+test_pruneSize_2 . . . . . . . [2 pts] - passed
+test_pruneSize_3 . . . . . . . [2 pts] - passed
+test_pruneSize_4 . . . . . . . [2 pts] - passed
+test_pruneSize_5 . . . . . . . [2 pts] - passed
+test_idealPrune_1  . . . . . . [2 pts] - passed
+test_idealPrune_2  . . . . . . [3 pts] - FAILED: Segmentation fault
+test_idealPrune_3  . . . . . . [2 pts] - passed
+test_idealPrune_4  . . . . . . [5 pts] - FAILED: Timed out (10000ms)
+val_clockwiseRotate (valgrind) [2 pts] - passed
+val_prune (valgrind) . . . . . [4 pts] - passed
+val_idealPrune (valgrind)  . . [3 pts] - passed
+test_const_correctness . . . . [4 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 83
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+time_decompress_n (run under valgrind) [4 points]
+Result: FAILED: unit_tests.cpp:296: Runtime was larger than O(n)
+Took unknown time (120000ms timeout)
+Output:
+----------------------------------------------------------------
+Running time_decompress_n [worth 4 points, output below]
+Input size 1: 31463 iterations in 481 ms for an average of 15.3008 us per call
+Input size 4096: 40 iterations in 1289 ms for an average of 32238.3 us per call
+Input size 65536: 3 iterations in 1892 ms for an average of 630709 us per call
+Actual ratio:     19.5728
+Expected ratio:   16
+Wrong/high ratio: 21.3333
+Diff from expected: 3.57277
+Diff from wrong:    1.76056
+Result: FAILED:
+unit_tests.cpp:296: Runtime was larger than O(n)
+
+----------------------------------------------------------------
+test_clockwiseRotate_1 [1 points]
+Result: FAILED: Segmentation fault
+Took 14268384ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+test_prune_1 [2 points]
+Result: FAILED: Segmentation fault
+Took 97392678404107ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+test_pruneSize_1 [2 points]
+Result: FAILED: Segmentation fault
+Took 97439923044363ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+test_idealPrune_2 [3 points]
+Result: FAILED: Segmentation fault
+Took 97465692848139ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+test_idealPrune_4 [5 points]
+Result: FAILED: Timed out (10000ms)
+Took 10000ms (10000ms timeout)
+Output:
+----------------------------------------------------------------
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 83
+

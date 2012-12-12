@@ -1,0 +1,53 @@
+Monad Autograder
+Testing mp3.1 at 2012-09-29 15:07:32
+
+"The cheapest, fastest, and most reliable components of a computer system are those that aren't there." ~ Gordon Bell
+
+Setting up test environment...
+Compiling...
+================================================================
+In file included from list.h:308,
+                 from unit_tests.cpp:38:
+list.cpp: In member function 'void List<T>::reverse(List<T>::ListNode*&, List<T>::ListNode*&) [with T = int]':
+list.cpp:104:   instantiated from 'void List<T>::reverse() [with T = int]'
+unit_tests.cpp:242:   instantiated from here
+list.cpp:141: error: cannot convert 'List<int>::ListNode' to 'List<int>::ListNode*' in assignment
+In file included from unit_tests.cpp:38:
+list.h: In member function 'List<int>::ListNode& List<int>::ListNode::operator=(const List<int>::ListNode&)':
+list.h:39: error: non-static const member 'const int List<int>::ListNode::data', can't use default assignment operator
+In file included from list.h:308,
+                 from unit_tests.cpp:38:
+list.cpp: In member function 'void List<T>::reverse(List<T>::ListNode*&, List<T>::ListNode*&) [with T = int]':
+list.cpp:145: note: synthesized method 'List<int>::ListNode& List<int>::ListNode::operator=(const List<int>::ListNode&)' first required here 
+list.cpp:149: error: invalid conversion from 'List<int>::ListNode*' to 'int'
+list.cpp:149: error:   initializing argument 1 of 'List<T>::ListNode::ListNode(const T&) [with T = int]'
+In file included from list.h:308,
+                 from unit_tests.cpp:38:
+list.cpp: In member function 'void List<T>::reverse(List<T>::ListNode*&, List<T>::ListNode*&) [with T = int]':
+list.cpp:104:   instantiated from 'void List<T>::reverse() [with T = int]'
+unit_tests.cpp:242:   instantiated from here
+list.cpp:141: error: cannot convert 'List<int>::ListNode' to 'List<int>::ListNode*' in assignment
+In file included from unit_tests.cpp:38:
+list.h: In member function 'List<int>::ListNode& List<int>::ListNode::operator=(const List<int>::ListNode&)':
+list.h:39: error: non-static const member 'const int List<int>::ListNode::data', can't use default assignment operator
+In file included from list.h:308,
+                 from unit_tests.cpp:38:
+list.cpp: In member function 'void List<T>::reverse(List<T>::ListNode*&, List<T>::ListNode*&) [with T = int]':
+list.cpp:145: note: synthesized method 'List<int>::ListNode& List<int>::ListNode::operator=(const List<int>::ListNode&)' first required here 
+list.cpp:149: error: invalid conversion from 'List<int>::ListNode*' to 'int'
+list.cpp:149: error:   initializing argument 1 of 'List<T>::ListNode::ListNode(const T&) [with T = int]'
+ld: no input files
+g++: unit_tests.o: No such file or directory
+make: *** [proxy] Error 1
+
+
+exec("./proxy", "--nodetailed") failed: No such file or directory
+Running tests...
+================================================================
+Could not execute test cases
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+

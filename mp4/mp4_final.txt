@@ -1,0 +1,108 @@
+Monad Autograder
+Testing mp4 at 2012-10-20 02:51:37
+
+"I would build pyramids, if I were Pharoah" ~ Kyle Johnson
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testStackPushPeek  . . . . . . . [1 pts] - passed
+testStackPushPop . . . . . . . . [1 pts] - passed
+testStackManyPushesPeek  . . . . [1 pts] - passed
+testStackManyPushesTwoPops . . . [1 pts] - passed
+testStackManyOperations  . . . . [1 pts] - passed
+testStackDuplicateElements . . . [1 pts] - passed
+testQueueEnqueuePeek . . . . . . [1 pts] - passed
+testQueueEnqueueDequeue  . . . . [1 pts] - passed
+testQueueManyEnqueuesPeek  . . . [1 pts] - passed
+testQueueManyEnqueuesTwoDequeues [1 pts] - passed
+testQueueManyOperations  . . . . [1 pts] - passed
+stack_peek_1 . . . . . . . . . . [1 pts] - passed
+stack_pop_peek_1 . . . . . . . . [1 pts] - passed
+stack_pop_2  . . . . . . . . . . [2 pts] - passed
+stack_isEmpty_1  . . . . . . . . [1 pts] - passed
+stack_isEmpty_2  . . . . . . . . [1 pts] - passed
+stack_push_pop_isEmpty . . . . . [2 pts] - passed
+stack_push_and_pop . . . . . . . [2 pts] - passed
+queue_peek_1 . . . . . . . . . . [1 pts] - passed
+queue_dequeue_peek_1 . . . . . . [2 pts] - passed
+queue_dequeue_2  . . . . . . . . [2 pts] - passed
+queue_isEmpty_1  . . . . . . . . [1 pts] - passed
+queue_isEmpty_2  . . . . . . . . [1 pts] - passed
+queue_enqueue_dequeue_isEmpty  . [2 pts] - passed
+queue_enqueue_and_dequeue  . . . [2 pts] - passed
+testThroughStackQueue  . . . . . [2 pts] - passed
+testEnqueueConstantTime  . . . . [2 pts] - passed
+testDequeueConstantTime  . . . . [2 pts] - FAILED: unit_tests.cpp:430: Runtime was larger than O(nlogn)
+testEnqueuePeekDequeueTime . . . [2 pts] - FAILED: unit_tests.cpp:440: Runtime was larger than O(nlogn)
+solid_picker_15  . . . . . . . . [4 pts] - passed
+gradient_picker_16 . . . . . . . [4 pts] - passed
+gradient_picker_17 . . . . . . . [4 pts] - passed
+DFS_solid  . . . . . . . . . . . [4 pts] - passed
+BFS_solid  . . . . . . . . . . . [4 pts] - passed
+DFS_grid . . . . . . . . . . . . [4 pts] - passed
+BFS_grid . . . . . . . . . . . . [4 pts] - passed
+DFS_gradient . . . . . . . . . . [4 pts] - passed
+BFS_gradient . . . . . . . . . . [4 pts] - passed
+DFS_18 . . . . . . . . . . . . . [2 pts] - passed
+DFS_19 . . . . . . . . . . . . . [2 pts] - passed
+DFS_20 . . . . . . . . . . . . . [2 pts] - passed
+DFS_21 . . . . . . . . . . . . . [2 pts] - passed
+DFS_22 . . . . . . . . . . . . . [2 pts] - passed
+DFS_23 . . . . . . . . . . . . . [2 pts] - passed
+BFS_24 . . . . . . . . . . . . . [2 pts] - passed
+BFS_25 . . . . . . . . . . . . . [2 pts] - passed
+BFS_26 . . . . . . . . . . . . . [2 pts] - passed
+BFS_27 . . . . . . . . . . . . . [2 pts] - passed
+BFS_28 . . . . . . . . . . . . . [2 pts] - passed
+BFS_29 . . . . . . . . . . . . . [2 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 96
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+testDequeueConstantTime [2 points]
+Result: FAILED: unit_tests.cpp:430: Runtime was larger than O(nlogn)
+Took 6304ms (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Input size 1: 1000000 iterations in 446 ms for an average of 0.446834 us per call
+Input size 100: 9770 iterations in 1000 ms for an average of 102.429 us per call
+Input size 400: 870 iterations in 1006 ms for an average of 1156.55 us per call
+Actual ratio:     11.3363
+Expected ratio:   5.20412
+Wrong/high ratio: 16
+Diff from expected: 6.13217
+Diff from wrong:    4.66371
+
+----------------------------------------------------------------
+testEnqueuePeekDequeueTime [2 points]
+Result: FAILED: unit_tests.cpp:440: Runtime was larger than O(nlogn)
+Took 6853ms (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Input size 1: 1000000 iterations in 887 ms for an average of 0.887696 us per call
+Input size 100: 6530 iterations in 1001 ms for an average of 153.339 us per call
+Input size 400: 580 iterations in 1007 ms for an average of 1736.4 us per call
+Actual ratio:     11.384
+Expected ratio:   5.20412
+Wrong/high ratio: 16
+Diff from expected: 6.17992
+Diff from wrong:    4.61596
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 96
+

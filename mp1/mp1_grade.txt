@@ -1,0 +1,6 @@
+Monad Autograder
+Testing mp1...
+"You *could* call it an ape, and that an ape, but that would just be phylogenic pettifogging." ~ D.A. Forsyth
+
+Setting up test environment...
+Error: /dev/shm/geigle1/grading/monad/fa12-cs225/slee168/mp1/Makefile does not exist.

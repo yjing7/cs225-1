@@ -1,0 +1,26 @@
+Monad Autograder
+Testing lab_avl at 2012-11-05 09:24:27
+
+"I just don't trust easily, and for good reasons... which are my own." ~ Carth Onasi
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_oneElement  . . . . [10 pts] - passed
+test_simpleRotateLeft  . [10 pts] - passed
+test_simpleRotateRight . [10 pts] - passed
+test_threeLeftRotates  . [10 pts] - passed
+test_threeRightRotates . [10 pts] - passed
+test_manyRotations . . . [20 pts] - passed
+test_manyInserts . . . . [20 pts] - passed
+test_valgrind (valgrind) [10 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

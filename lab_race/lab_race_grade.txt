@@ -1,0 +1,29 @@
+Monad Autograder
+Testing lab_race at 2012-10-09 00:25:49
+
+"The cheating sheet is key to success in CS 412 course." ~ CS 412 TA
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+table_correctness . . . . . . . [10 pts] - passed
+table_parallelism . . . . . . . [13 pts] - passed
+flipper_correctness . . . . . . [10 pts] - passed
+flipper_parallelism . . . . . . [13 pts] - passed
+shifter_correctness . . . . . . [10 pts] - passed
+shifter_parallelism . . . . . . [13 pts] - passed
+collage_layers_correctness  . . [5 pts]  - passed
+collage_layers_parallelism  . . [7 pts]  - passed
+collage_coordinates_serial  . . [5 pts]  - passed
+collage_coordinates_parallelism [7 pts]  - passed
+collage_coordinates_correctness [7 pts]  - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

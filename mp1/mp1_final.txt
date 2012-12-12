@@ -1,0 +1,62 @@
+Monad Autograder
+Testing mp1...
+"There's an old story about the person who wished his computer were as easy to use as his telephone. That wish has come true, since I no longer know how to use my telephone." ~ Bjarne Stroustrup
+
+Setting up test environment...
+Compiling...
+================================================================
+g++ -c -g -O0 -Wall -Werror main.cpp
+g++ main.o png.o rgbapixel.o -lpng -o mp1
+
+
+Running tests...
+================================================================
+RGBAPixel_default_ctor [5 pts]  - FAILED: unit_tests.cpp:22: Assertion (normal.alpha == 255) failed
+RGBAPixel_three_ctor . [10 pts] - FAILED: unit_tests.cpp:31: Assertion (three.alpha == 255) failed
+in_01_png  . . . . . . [5 pts]  - passed
+in_02_png  . . . . . . [5 pts]  - passed
+in_03_png  . . . . . . [5 pts]  - passed
+in_04_png  . . . . . . [5 pts]  - passed
+in_05_png  . . . . . . [5 pts]  - passed
+in_06_png  . . . . . . [5 pts]  - passed
+in_07_png  . . . . . . [5 pts]  - passed
+in_08_png  . . . . . . [5 pts]  - passed
+in_09_png  . . . . . . [5 pts]  - passed
+in_10_png  . . . . . . [5 pts]  - passed
+in_11_png  . . . . . . [5 pts]  - passed
+in_12_png  . . . . . . [5 pts]  - passed
+in_13_png  . . . . . . [5 pts]  - passed
+in_14_png  . . . . . . [5 pts]  - passed
+in_15_png  . . . . . . [5 pts]  - passed
+in_16_png  . . . . . . [5 pts]  - passed
+in_17_png  . . . . . . [5 pts]  - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 85
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+RGBAPixel_default_ctor [5 points]
+Result: FAILED: unit_tests.cpp:22: Assertion (normal.alpha == 255) failed
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+RGBAPixel_three_ctor [10 points]
+Result: FAILED: unit_tests.cpp:31: Assertion (three.alpha == 255) failed
+Took 0ms (1000ms timeout)
+Output:
+----------------------------------------------------------------
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 85
+

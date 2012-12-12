@@ -1,0 +1,467 @@
+Monad Autograder
+Testing mp7 at 2012-12-11 01:47:04
+
+"I've seen it on Google Maps; I think I know what I'm talking about" ~ Kyle Johnson
+
+Setting up test environment...
+Compiling...
+================================================================
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:128: error: variable or field 'recDFS' declared void
+unit_tests.cpp:128: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:128: error: 'maze' was not declared in this scope
+unit_tests.cpp:128: error: expected primary-expression before '*' token
+unit_tests.cpp:128: error: 'visited' was not declared in this scope
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:145: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:145: error: 'maze' was not declared in this scope
+unit_tests.cpp:145: error: expected primary-expression before 'int'
+unit_tests.cpp:145: error: expected primary-expression before 'int'
+unit_tests.cpp:146: error: expected ',' or ';' before '{' token
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp:128: error: variable or field 'recDFS' declared void
+unit_tests.cpp:128: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:128: error: 'maze' was not declared in this scope
+unit_tests.cpp:128: error: expected primary-expression before '*' token
+unit_tests.cpp:128: error: 'visited' was not declared in this scope
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:128: error: expected primary-expression before 'int'
+unit_tests.cpp:145: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:145: error: 'maze' was not declared in this scope
+unit_tests.cpp:145: error: expected primary-expression before 'int'
+unit_tests.cpp:145: error: expected primary-expression before 'int'
+unit_tests.cpp:146: error: expected ',' or ';' before '{' token
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testMakeSmallMaze(util::pipestream&)':
+unit_tests.cpp:258: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:258: error: expected ';' before 'maze'
+unit_tests.cpp:259: error: 'maze' was not declared in this scope
+unit_tests.cpp:260: error: 'assert_maze_tree' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testMakeMazeConnected(util::pipestream&)':
+unit_tests.cpp:268: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:268: error: expected ';' before 'maze'
+unit_tests.cpp:269: error: 'maze' was not declared in this scope
+unit_tests.cpp:270: error: 'assert_maze_connected' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testMakeMazeAcyclic(util::pipestream&)':
+unit_tests.cpp:278: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:278: error: expected ';' before 'maze'
+unit_tests.cpp:279: error: 'maze' was not declared in this scope
+unit_tests.cpp:280: error: 'assert_maze_acyclic' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testMakeMazeTree1000(util::pipestream&)':
+unit_tests.cpp:288: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:288: error: expected ';' before 'maze'
+unit_tests.cpp:289: error: 'maze' was not declared in this scope
+unit_tests.cpp:290: error: 'assert_maze_tree' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testMakeMazeRandom(util::pipestream&)':
+unit_tests.cpp:298: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:298: error: expected ';' before 'maze1'
+unit_tests.cpp:299: error: 'maze1' was not declared in this scope
+unit_tests.cpp:301: error: expected ';' before 'maze2'
+unit_tests.cpp:302: error: 'maze2' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testSolveMazeValidPath(util::pipestream&)':
+unit_tests.cpp:322: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:322: error: expected ';' before 'maze'
+unit_tests.cpp:324: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testSolutionBottomRow(util::pipestream&)':
+unit_tests.cpp:345: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:345: error: expected ';' before 'maze'
+unit_tests.cpp:347: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testSolutionCorrectSquare(util::pipestream&)':
+unit_tests.cpp:364: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:364: error: expected ';' before 'maze'
+unit_tests.cpp:366: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void helpSolveMaze(const MazeReader&)':
+unit_tests.cpp:387: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:387: error: expected ';' before 'maze'
+unit_tests.cpp:388: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testDrawMazeSmall(util::pipestream&)':
+unit_tests.cpp:411: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:411: error: expected ';' before 'maze'
+unit_tests.cpp:412: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testDrawMazeMed(util::pipestream&)':
+unit_tests.cpp:425: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:425: error: expected ';' before 'maze'
+unit_tests.cpp:426: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testDrawMazeLarge(util::pipestream&)':
+unit_tests.cpp:439: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:439: error: expected ';' before 'maze'
+unit_tests.cpp:440: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testDrawSolutionMed(util::pipestream&)':
+unit_tests.cpp:453: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:453: error: expected ';' before 'maze'
+unit_tests.cpp:454: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: variable or field 'assert_maze_acyclic' declared void
+unit_tests.cpp:111: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:111: error: 'maze' was not declared in this scope
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:111: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: variable or field 'assert_maze_connected' declared void
+unit_tests.cpp:112: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:112: error: 'maze' was not declared in this scope
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:112: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: variable or field 'assert_maze_tree' declared void
+unit_tests.cpp:113: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:113: error: 'maze' was not declared in this scope
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:113: error: expected primary-expression before 'int'
+unit_tests.cpp:114: error: 'SquareMaze' has not been declared
+unit_tests.cpp: In function 'void proxy_test::testDrawSolutionLarge(util::pipestream&)':
+unit_tests.cpp:468: error: 'SquareMaze' was not declared in this scope
+unit_tests.cpp:468: error: expected ';' before 'maze'
+unit_tests.cpp:469: error: 'maze' was not declared in this scope
+ld: no input files
+g++: unit_tests.o: No such file or directory
+make: *** [proxy] Error 1
+
+
+exec("./proxy", "--nodetailed") failed: No such file or directory
+Running tests...
+================================================================
+Could not execute test cases
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+

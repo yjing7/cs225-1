@@ -1,0 +1,28 @@
+Monad Autograder
+Testing lab_huffman at 2012-10-29 01:30:29
+
+"You *could* call it an ape, and that an ape, but that would just be phylogenic pettifogging." ~ D.A. Forsyth
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_encoder_binary_4  . . . . . . [20 pts] - passed
+test_encoder_binary_8  . . . . . . [20 pts] - passed
+test_encoder_valgrind_2 (valgrind) [6 pts]  - passed
+test_encoder_writetree_4 . . . . . [2 pts]  - passed
+test_encoder_writetree_8 . . . . . [2 pts]  - passed
+test_decode_4  . . . . . . . . . . [20 pts] - passed
+test_decode_8  . . . . . . . . . . [20 pts] - passed
+test_decode_readtree_4 . . . . . . [2 pts]  - passed
+test_decode_readtree_8 . . . . . . [2 pts]  - passed
+test_the_works (valgrind)  . . . . [6 pts]  - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

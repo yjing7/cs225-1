@@ -1,0 +1,166 @@
+Monad Autograder
+Testing mp2 at 2012-09-19 12:18:41
+
+"Worry loudly now or scream louder later." ~ Michael Lopp
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+InvertColorsEven . . . . . . . . . . . [8 pts] - passed
+FlipLeftEven . . . . . . . . . . . . . [5 pts] - passed
+FlipLeftOdd  . . . . . . . . . . . . . [5 pts] - passed
+AdjustBrightnessEven . . . . . . . . . [6 pts] - passed
+AdjustBrightnessEven2  . . . . . . . . [3 pts] - passed
+AdjustBrightnessEven3  . . . . . . . . [3 pts] - passed
+Valgrind1 (valgrind) . . . . . . . . . [5 pts] - passed
+AddPictureValidIndex . . . . . . . . . [3 pts] - passed
+AddPictureInvalidIndex . . . . . . . . [2 pts] - passed
+ImageAssignmentOperator  . . . . . . . [2 pts] - passed
+SceneGetPictureInvalidIndex  . . . . . [2 pts] - passed
+SceneChangeMaxLayersLarger . . . . . . [3 pts] - FAILED: Segmentation fault
+SceneChangeMaxLayersSmaller (valgrind) [1 pts] - passed
+SceneChangeMaxLayersInvalidChange  . . [2 pts] - FAILED: testscene.cpp:329: Assertion (*image == *red) failed
+SceneCopyCtor  . . . . . . . . . . . . [3 pts] - passed
+SceneCopyCtor2 . . . . . . . . . . . . [2 pts] - passed
+SceneAssignmentOperator  . . . . . . . [3 pts] - passed
+SceneAssignmentOperator2 . . . . . . . [2 pts] - passed
+SceneChangeLayer . . . . . . . . . . . [3 pts] - passed
+SceneChangeLayerInvalid  . . . . . . . [2 pts] - passed
+SceneDrawScene . . . . . . . . . . . . [3 pts] - passed
+SceneDrawScene2  . . . . . . . . . . . [3 pts] - passed
+SceneDrawScene3  . . . . . . . . . . . [3 pts] - passed
+SceneDrawScene4  . . . . . . . . . . . [3 pts] - passed
+SceneDrawSceneChangeLayer  . . . . . . [2 pts] - passed
+SceneDrawSceneDeletePicture  . . . . . [2 pts] - passed
+SceneDrawSceneTranslate  . . . . . . . [2 pts] - passed
+SceneDrawSceneTranslate2 . . . . . . . [2 pts] - passed
+SceneTranslateInvalid  . . . . . . . . [2 pts] - passed
+SceneTranslateInvalid2 . . . . . . . . [1 pts] - passed
+SceneDeletePictureInvalid  . . . . . . [2 pts] - passed
+Valgrind2 (valgrind) . . . . . . . . . [5 pts] - passed
+Valgrind3 (valgrind) . . . . . . . . . [5 pts] - FAILED: Segmentation fault
+
+
+Total score...
+================================================================
+TOTAL SCORE: 90
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+SceneChangeMaxLayersLarger [3 points]
+Result: FAILED: Segmentation fault
+Took 33632896ms (2000ms timeout)
+Output:
+----------------------------------------------------------------
+index out of bounds
+invalid index
+
+----------------------------------------------------------------
+SceneChangeMaxLayersInvalidChange [2 points]
+Result: FAILED: testscene.cpp:329: Assertion (*image == *red) failed
+Took 0ms (2000ms timeout)
+Output:
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+Valgrind3 (run under valgrind) [5 points]
+Result: FAILED: Segmentation fault
+Took unknown time (10000ms timeout)
+Output:
+----------------------------------------------------------------
+Running Valgrind3 [worth 5 points, output below]
+==4864== Invalid read of size 8
+==4864==    at 0x420018: PNG::_clear() (png.cpp:25)
+==4864==    by 0x420809: PNG::operator=(PNG const&) (png.cpp:151)
+==4864==    by 0x413766: Image::operator=(Image const&) (image.h:7)
+==4864==    by 0x41F3EA: Scene::changemaxlayers(int) (scene.cpp:79)
+==4864==    by 0x408BD6: proxy_test::Valgrind3(util::sizedpipestream<512ul>&) (testscene.cpp:584)
+==4864==    by 0x412F89: monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (monad_shared.h:72)
+==4864==    by 0x40BF11: proxy::test_execution::child_test() (testscene.cpp:1304)
+==4864==    by 0x40B930: proxy::test_execution::child() (testscene.cpp:1189)
+==4864==    by 0x415004: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (testscene.cpp:1263)
+==4864==    by 0x40BD95: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (testscene.cpp:1244)
+==4864==    by 0x40AC1A: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (testscene.cpp:1005)
+==4864==    by 0x40AB22: proxy::RunTests::run_single_test(char const*) (testscene.cpp:993)
+==4864==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==4864== 
+==4864== 
+==4864== Process terminating with default action of signal 11 (SIGSEGV)
+==4864==  Access not within mapped region at address 0x8
+==4864==    at 0x420018: PNG::_clear() (png.cpp:25)
+==4864==    by 0x420809: PNG::operator=(PNG const&) (png.cpp:151)
+==4864==    by 0x413766: Image::operator=(Image const&) (image.h:7)
+==4864==    by 0x41F3EA: Scene::changemaxlayers(int) (scene.cpp:79)
+==4864==    by 0x408BD6: proxy_test::Valgrind3(util::sizedpipestream<512ul>&) (testscene.cpp:584)
+==4864==    by 0x412F89: monad_shared::unit_test_input::execute(util::sizedpipestream<512ul>&) const (monad_shared.h:72)
+==4864==    by 0x40BF11: proxy::test_execution::child_test() (testscene.cpp:1304)
+==4864==    by 0x40B930: proxy::test_execution::child() (testscene.cpp:1189)
+==4864==    by 0x415004: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (testscene.cpp:1263)
+==4864==    by 0x40BD95: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (testscene.cpp:1244)
+==4864==    by 0x40AC1A: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (testscene.cpp:1005)
+==4864==    by 0x40AB22: proxy::RunTests::run_single_test(char const*) (testscene.cpp:993)
+==4864==  If you believe this happened as a result of a stack
+==4864==  overflow in your program's main thread (unlikely but
+==4864==  possible), you can try to increase the size of the
+==4864==  main thread stack using the --main-stacksize= flag.
+==4864==  The main thread stack size used in this run was 10485760.
+==4862== 31 bytes in 1 blocks are possibly lost in loss record 2 of 10
+==4862==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==4862==    by 0x32B869C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x40A66B: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (testscene.cpp:920)
+==4862==    by 0x4129AE: __static_initialization_and_destruction_0(int, int) (testscene.cpp:786)
+==4862==    by 0x412A00: global constructors keyed to testingImages (testscene.cpp:2811)
+==4862==    by 0x422405: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862==    by 0x4036A2: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862== 
+==4862== 33 bytes in 1 blocks are possibly lost in loss record 3 of 10
+==4862==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==4862==    by 0x32B869C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x40A66B: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (testscene.cpp:920)
+==4862==    by 0x4129C2: __static_initialization_and_destruction_0(int, int) (testscene.cpp:792)
+==4862==    by 0x412A00: global constructors keyed to testingImages (testscene.cpp:2811)
+==4862==    by 0x422405: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862==    by 0x4036A2: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862== 
+==4862== 37 bytes in 1 blocks are possibly lost in loss record 4 of 10
+==4862==    at 0x4A06C8E: operator new(unsigned long) (vg_replace_malloc.c:261)
+==4862==    by 0x32B869C3A8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CDC4: ??? (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x32B869CF12: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x40A66B: proxy::add_output_check::add_output_check(char const*, bool (*)(std::string const&, std::string const&)) (testscene.cpp:920)
+==4862==    by 0x4129D6: __static_initialization_and_destruction_0(int, int) (testscene.cpp:798)
+==4862==    by 0x412A00: global constructors keyed to testingImages (testscene.cpp:2811)
+==4862==    by 0x422405: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862==    by 0x4036A2: ??? (in /dev/shm/massung1/monad/mp2_grade/testscene)
+==4862== 
+==4862== 132 bytes in 1 blocks are possibly lost in loss record 9 of 10
+==4862==    at 0x4A05FDE: malloc (vg_replace_malloc.c:236)
+==4862==    by 0x32B86BB746: __cxa_allocate_exception (in /usr/lib64/libstdc++.so.6.0.13)
+==4862==    by 0x41509E: int proxy::fork_execute<proxy::test_execution>(proxy::test_execution&) (testscene.cpp:1277)
+==4862==    by 0x40BD95: proxy::RunTests::execute_test(monad_shared::unit_test_input const&, bool) (testscene.cpp:1244)
+==4862==    by 0x40AC1A: proxy::RunTests::run_single_test(monad_shared::unit_test_input const&) (testscene.cpp:1005)
+==4862==    by 0x40AB22: proxy::RunTests::run_single_test(char const*) (testscene.cpp:993)
+==4862==    by 0x40A98A: proxy::RunTests::execute_by_mode() (testscene.cpp:978)
+==4862==    by 0x40A93B: proxy::RunTests::execute() (testscene.cpp:969)
+==4862==    by 0x40A0D7: main (testscene.cpp:859)
+==4862== 
+Result: FAILED:
+Segmentation fault
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 90
+

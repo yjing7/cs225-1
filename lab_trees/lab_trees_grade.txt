@@ -1,0 +1,22 @@
+Monad Autograder
+Testing lab_trees at 2012-10-22 10:03:27
+
+"A computer will do what you tell it to do, but that may be much different from what you had in mind" ~ Joseph Weizenbaum
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_isOrdered  . [40 pts] - passed
+test_mirror . . . [30 pts] - passed
+test_printPaths . [30 pts] - passed
+test_sumDistances [25 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 125
+

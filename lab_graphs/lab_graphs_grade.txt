@@ -1,0 +1,27 @@
+Monad Autograder
+Testing lab_graphs at 2012-12-10 12:54:41
+
+"I've seen it on Google Maps; I think I know what I'm talking about" ~ Kyle Johnson
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+minWeight_OneEdge_ReturnValue . [10 pts] - passed
+minWeight_OneEdge_EdgeLabel . . [10 pts] - passed
+minWeight_MultiEdge_ReturnValue [15 pts] - passed
+minWeight_MultiEdge_EdgeLabels  [15 pts] - passed
+minPath_OneEdge_ReturnValue . . [10 pts] - passed
+minPath_OneEdge_EdgeLabel . . . [10 pts] - passed
+minPath_MultiEdge_ReturnValue . [15 pts] - passed
+minPath_MultiEdge_EdgeLabels  . [15 pts] - passed
+kruskal_all . . . . . . . . . . [25 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 125
+

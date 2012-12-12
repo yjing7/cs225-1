@@ -1,0 +1,24 @@
+Monad Autograder
+Testing mp2 at 2012-09-12 04:15:21
+.1
+"Eighty percent of success is showing up." ~ Woody Allen
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+InvertColorsEven  . . [33 pts] - passed
+FlipLeftEven  . . . . [17 pts] - passed
+FlipLeftOdd . . . . . [17 pts] - FAILED
+AdjustBrightnessEven  [11 pts] - passed
+AdjustBrightnessEven2 [11 pts] - passed
+AdjustBrightnessEven3 [11 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 83
+

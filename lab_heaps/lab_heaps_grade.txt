@@ -1,0 +1,30 @@
+Monad Autograder
+Testing lab_heaps at 2012-12-03 12:14:46
+
+"The primary purpose of the DATA statement is to give names to constants; instead of referring to pi as 3.141592653589793 at every appearance, the variable PI can be given that value with a DATA statement and used instead of the longer form of the constant. This also simplifies modifying the program, should the value of pi change." ~ FORTRAN manual for Xerox computers
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+peek1  . . . [5 pts] - passed
+peek2  . . . [5 pts] - passed
+heapifyDown1 [9 pts] - passed
+heapifyDown2 [9 pts] - passed
+heapifyDown3 [9 pts] - passed
+heapifyDown4 [9 pts] - passed
+heapifyDown5 [9 pts] - passed
+buildHeap1 . [9 pts] - passed
+buildHeap2 . [9 pts] - passed
+buildHeap3 . [9 pts] - passed
+buildHeap4 . [9 pts] - passed
+buildHeap5 . [9 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

@@ -1,0 +1,47 @@
+Monad Autograder
+Testing mp4.1 at 2012-10-15 19:36:52
+
+"You think the sky is like a big big plate." ~ Prof. Jiawei Han
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testStackPushPeek  . . . . . . . [4 pts] - passed
+testStackPushPop . . . . . . . . [4 pts] - passed
+testStackManyPushesPeek  . . . . [4 pts] - passed
+testStackManyPushesTwoPops . . . [3 pts] - passed
+testStackManyOperations  . . . . [3 pts] - passed
+testStackDuplicateElements . . . [2 pts] - passed
+testQueueEnqueuePeek . . . . . . [2 pts] - passed
+testQueueEnqueueDequeue  . . . . [4 pts] - passed
+testQueueManyEnqueuesPeek  . . . [4 pts] - passed
+testQueueManyEnqueuesTwoDequeues [3 pts] - passed
+testQueueManyOperations  . . . . [3 pts] - passed
+stack_peek_1 . . . . . . . . . . [2 pts] - passed
+stack_pop_peek_1 . . . . . . . . [2 pts] - passed
+stack_pop_2  . . . . . . . . . . [4 pts] - passed
+stack_isEmpty_1  . . . . . . . . [4 pts] - passed
+stack_isEmpty_2  . . . . . . . . [4 pts] - passed
+stack_push_pop_isEmpty . . . . . [4 pts] - passed
+stack_push_and_pop . . . . . . . [4 pts] - passed
+queue_peek_1 . . . . . . . . . . [2 pts] - passed
+queue_dequeue_peek_1 . . . . . . [4 pts] - passed
+queue_dequeue_2  . . . . . . . . [4 pts] - passed
+queue_isEmpty_1  . . . . . . . . [4 pts] - passed
+queue_isEmpty_2  . . . . . . . . [4 pts] - passed
+queue_enqueue_dequeue_isEmpty  . [4 pts] - passed
+queue_enqueue_and_dequeue  . . . [4 pts] - passed
+testThroughStackQueue  . . . . . [4 pts] - passed
+testEnqueueConstantTime  . . . . [3 pts] - passed
+testDequeueConstantTime  . . . . [3 pts] - FAILED
+testEnqueuePeekDequeueTime . . . [4 pts] - FAILED
+
+
+Total score...
+================================================================
+TOTAL SCORE: 93
+
